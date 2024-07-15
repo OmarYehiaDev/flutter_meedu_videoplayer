@@ -16,7 +16,10 @@ dependencies:
     sdk: flutter
   video_player: ^2.7.0
   volume_controller: ^2.0.3
-  auto_orientation: ^2.3.1
+  auto_orientation:
+    git:
+      url: https://github.com/Marco4763/auto_orientation.git
+      ref: agp_compatibility
   screen_brightness: ^1.0.1
   flutter_meedu: ^9.1.0
   flutter_spinkit: ^5.1.0
